@@ -49,3 +49,21 @@ for (var i = 0; i < passwordLength; i++) {
 
 return password;
 }
+
+// Function to prompt for password length
+function getPasswordLength() {
+  var length = prompt("Enter the desired password length (between 8 and 128 characters):");
+
+  if (length === null) {
+    return null;
+  }
+
+  length = parseInt(length);
+
+  if (isNaN(length) || length < 8 || length > 128) {
+    alert("Invalid password length. Please enter a number between 8 and 128.");
+    return getPasswordLength();
+  }
+
+  return length;
+}

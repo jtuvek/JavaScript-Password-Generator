@@ -2,7 +2,7 @@
 
 ## Description
 
-The JavaScript Password Generator is a web application that allows employees with access to sensitive data to generate random passwords based on their chosen criteria. It runs in the browser and features a clean and polished, responsive user interface that adapts to multiple screen sizes.
+The JavaScript Password Generator is a web application that allows employees with access to sensitive data to generate random passwords based on their chosen criteria. It runs in the browser with no errors. It features a clean, polished and responsive user interface that adapts to multiple screen sizes.
 
 Users can specify the length of the password (between 8 and 128 characters) and select which character types to include: lowercase, uppercase, numeric, and/or special characters. Once the user answers the prompts and selects the criteria, a password is generated that matches the selected criteria. The generated password is then displayed in the designated area on the page.
 

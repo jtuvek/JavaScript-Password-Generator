@@ -17,4 +17,9 @@ generateBtn.addEventListener("click", writePassword);
 function generatePassword() {
   var passwordLength = getPasswordLength();
   var characterTypes = getCharacterTypes();
+
+  if (passwordLength === null || characterTypes.length === 0) {
+    alert("Please select at least one character type and specify the password length.");
+    return "";
+  }
 }

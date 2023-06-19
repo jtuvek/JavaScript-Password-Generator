@@ -8,11 +8,11 @@ Users can specify the length of the password (between 8 and 128 characters) and 
 
 ## Screenshot
 
-![Password Generator Screenshot](<Web capture_19-6-2023_164119_127.0.0.1.jpeg>)
+![Password Generator Screenshot](<Images/Web capture_19-6-2023_164119_127.0.0.1.jpeg>)
 
 ## Deployed Application
 
-Access the deployed Password Generator application here: [Password Generator](http://127.0.0.1:5500/JavaScript-Password-Generator/index.html)
+Access the deployed Password Generator application here: [Password Generator](http://127.0.0.1:5500/JavaScript-Password-Generator/Assets/index.html)
 
 ## Installation
 

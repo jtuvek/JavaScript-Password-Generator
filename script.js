@@ -67,3 +67,35 @@ function getPasswordLength() {
 
   return length;
 }
+
+// Function to prompt for character types
+function getCharacterTypes() {
+  var characterTypes = [];
+  var lowercase = confirm("Include lowercase characters?");
+  var uppercase = confirm("Include uppercase characters?");
+  var numeric = confirm("Include numeric characters?");
+  var special = confirm("Include special characters?");
+
+  if (lowercase || uppercase || numeric || special) {
+    if (lowercase) {
+      characterTypes.push("lowercase");
+    }
+  
+    if (uppercase) {
+      characterTypes.push("uppercase");
+    }
+  
+    if (numeric) {
+      characterTypes.push("numeric");
+    }
+  
+    if (special) {
+      characterTypes.push("special");
+    }
+  } else {
+    alert("Please select at least one character type.");
+    return getCharacterTypes();
+  }
+
+  return characterTypes;
+}
